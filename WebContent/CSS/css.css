@@ -1,0 +1,109 @@
+.carrito{
+    max-width: 30px;
+    max-height: 30px;
+}
+
+.foto{
+	width: 140px;
+}
+
+hr{
+    border-color:  #007bff;
+}
+footer a, footer a:hover{
+    color: white;
+}
+footer{
+    background-color: #6c757d;
+    color: white;
+}
+
+div ol li{
+
+    background-color: red;
+}
+body{
+    background-color: white;
+   
+}
+
+img.eliminar{
+    margin:auto;
+    width: 40px;
+    height: 40px;
+}
+img#caratulas{
+    width: 30%;
+    max-height: 150px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.titulopeli{
+    text-align: center;
+}
+
+div#container{
+    z-index: 4;
+    position:absolute;
+}
+div.cantidad input,div.cantidad button{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+div#capacarrito{
+    
+    display: none;
+    float: right;
+    background-color: lightblue;
+    width: 450px;
+    left: 70%;
+    height:auto;
+    position:fixed;
+    z-index: 1;
+}
+span#email,span#telefono,span#nombre,span#password,span#direccion,span#nif{
+    color:red;
+}
+div#capacarrito div{
+    width: 200px;
+    height: auto;
+    
+}
+div#peliculas{
+  margin-left: 15%;
+}
+img.imagencarrito{
+    width: 20%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+div#peliculas div{
+    width: 30%;
+    margin-left: 10%;
+    margin-bottom: 10px;
+    display:inline-block;
+   
+}
+
+div.peliculasCarrito{
+    width: 20px;
+    height: 300px;
+    margin-left: 10%;
+    margin-top:10px;
+    display:inline-block;
+    background-color: lightsalmon;
+    border-radius: 10%;
+}
